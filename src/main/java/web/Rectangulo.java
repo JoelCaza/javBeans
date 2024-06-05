@@ -1,3 +1,5 @@
+package web;
+
 public class Rectangulo {
     private int base;
     private int altura;
@@ -26,10 +28,12 @@ public class Rectangulo {
         this.altura = altura;
     }
 
-    public double CalcularArea() {
-        return base*altura;
+    public double getArea() {
+       return base*altura;
 
     }
+
+
 
 
 }
